@@ -13,6 +13,8 @@
     @include("contents.acheivement")
     <!-- Testimonial -->
     @include("contents.testimonial")
+    <!-- pricing -->
+    @include("contents.pricing")
     <!-- Get Start Content -->
     @include("contents.get-start-content")
 @endsection

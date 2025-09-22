@@ -435,8 +435,10 @@ document.addEventListener("scroll", function () {
 
 //faq dropdown
 document.addEventListener("DOMContentLoaded", function () {
-    function showCategory(category) {
-        // Hide all items
+    let currentCategory = null;
+
+    function showCategory(category, forceFirst = true) {
+        // Hide all categories
         document.querySelectorAll('.accordion-item').forEach(item => {
             item.style.display = 'none';
         });
@@ -447,29 +449,46 @@ document.addEventListener("DOMContentLoaded", function () {
             item.style.display = 'block';
         });
 
-        // Close all first to reset
-        document.querySelectorAll('.accordion-collapse').forEach(collapse => {
-            bootstrap.Collapse.getOrCreateInstance(collapse).hide();
-        });
+        // Auto-open first question if requested
+        if (forceFirst && visibleItems.length > 0) {
+            const firstCollapse = visibleItems[0].querySelector('.accordion-collapse');
 
-        // Always open the first FAQ in this category
-        let first = visibleItems[0]?.querySelector('.accordion-collapse');
-        if (first) {
-            bootstrap.Collapse.getOrCreateInstance(first).show();
+            if (firstCollapse) {
+                // Close everything properly
+                document.querySelectorAll('.accordion-collapse.show').forEach(opened => {
+                    bootstrap.Collapse.getOrCreateInstance(opened).hide();
+                });
+
+                // Open the first one properly (syncs button + content)
+                bootstrap.Collapse.getOrCreateInstance(firstCollapse).show();
+            }
         }
     }
 
-    // Show first category on load
-    const firstBtn = document.querySelector('.faq-btn');
+    // On page load → default to "general"
+    const firstBtn = document.querySelector('.faq-btn[data-category="general"]');
     if (firstBtn) {
-        showCategory(firstBtn.dataset.category);
+        currentCategory = "general";
+        firstBtn.classList.add('active');
+        showCategory("general", true);
     }
 
-    // Handle button clicks
+    // Handle nav button clicks
     document.querySelectorAll('.faq-btn').forEach(btn => {
         btn.addEventListener('click', function (e) {
             e.preventDefault();
-            showCategory(this.dataset.category);
+            const category = this.dataset.category;
+
+            if (category !== currentCategory) {
+                // remove active from all
+                document.querySelectorAll('.faq-btn').forEach(b => b.classList.remove('active'));
+                // set active on clicked
+                this.classList.add('active');
+
+                currentCategory = category;
+                showCategory(category, true); 
+            }
         });
     });
 });
+
