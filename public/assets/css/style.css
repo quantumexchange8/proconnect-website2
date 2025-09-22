@@ -2034,6 +2034,107 @@ body.lightmode .navbar-icon-wrapper{
     stroke: var(--accent-color);
 }
 
+/* Percentage */
+.percent-circle {
+    position: relative;
+    width: 160px;  /* bigger container */
+    height: 160px;
+    margin:15px;
+}
+
+.percent-circle svg {
+    transform: rotate(-90deg);
+    width: 160px;
+    height: 160px;
+}
+
+.percent-circle circle {
+    fill: none;
+    stroke-width: 14; /* thicker line */
+}
+
+.percent-circle .bg {
+    stroke: #eee;
+}
+
+.percent-circle .progress {
+    stroke: #04afa9;
+    stroke-dasharray: 439.82; /* 2πr = 2*3.14*70 */
+    stroke-dashoffset: 439.82;
+    transition: stroke-dashoffset 1.5s linear;
+}
+
+.percent-circle .percent-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.percent-circle .percent-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: var(--font-size-9xl);
+    line-height: var(--line-height-normal);
+    font-weight: var(--font-weight-bold);
+    color: var(--accent-transparent);
+    -webkit-text-stroke-width: 2px;
+    stroke-width: 2px;
+    -webkit-text-stroke-color: var(--accent-color);
+    stroke: var(--accent-color);
+}
+
+/*services*/
+
+.services {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.services-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--primary);
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.service {
+    flex: 0 0 auto;
+    padding: 1.5rem 2rem;
+    background: linear-gradient(284deg, var(--accent-color-6) 50%, var(--accent-color) 100%);
+    color: var(--primary);
+    border-radius: 16px;
+    font-weight: 600;
+    min-width: 220px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+body.lightmode .service{
+background: linear-gradient(284deg, var(--accent-color-3) 50%, var(--accent-color-4) 100%);
+    color: var(--accent-color-2);
+}
+.service:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    background: linear-gradient(135deg, var(--accent-color-3), var(--accent-color-4));
+}
+
+
+
 /* ================== 25. Expertise Components ================== */
 
 .expertise-layout{
@@ -2741,6 +2842,96 @@ body.lightmode .case-studies-content::before{
     color: var(--accent-color);
 }
 
+/* Mission and Vision */
+.team-card {
+    position: relative;
+    width: 500px;
+    height: 350px; /* adjust */
+    perspective: 1000px;   
+    position: relative;
+    border-radius: var(--global-border-radius);
+    border: none;    
+    overflow: hidden;
+}
+
+.team-back h4{
+    color:#0a6777;
+}
+
+.team-front, .team-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 0.6s ease;
+    border-radius: 16px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--primary);
+    font-weight: 500;
+    border-radius: 16px;
+    border: 1px solid var(--accent-color);
+    
+}
+
+.dot-list {
+    list-style: none;
+    padding: 0;
+}
+
+.dot-list li {
+    position: relative;
+    padding-left: 32px;
+    margin-bottom: 8px;
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-loose);
+    text-align:left;
+}
+
+.dot-list li::before {
+    content: "\f192";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 500;
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+    font-size: var(--font-size-xl);
+}
+
+.gradient-bg::before {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    background-image: radial-gradient(at bottom center, var(--accent-color) 0%, var(--accent-transparent) 50%);
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.gradient-bg-alt {
+    background: linear-gradient(180deg, var(--accent-color-3) 0%, var(--accent-color-4) 100%);
+        display: flex;
+    transform: rotateY(180deg);
+}
+
+.team-card:hover .team-front {
+    transform: rotateY(180deg);
+}
+
+.team-card:hover .team-back {
+    transform: rotateY(360deg);
+}
+
+
+
 /* ================== 31. Contact Components ================== */
 
 .contact-title-wrapper{
@@ -2801,8 +2992,8 @@ body.lightmode .case-studies-content::before{
     color: var(--accent-color);
     box-shadow: var(--box-shadow-top-left);
     text-decoration: none;
-    width: 80px;
-    min-height: 80px;
+    width: 70px;
+    min-height: 77px;
     border-radius: var(--global-border-radius);
     font-size: var(--font-size-7xl);
 }
@@ -5313,5 +5504,11 @@ body.lightmode .cta-service-banner::before{
     .copyright,
     .legal-link{
         font-size: var(--font-size-xs);
+    }
+    .team-card {
+        width: 100%; 
+        max-width: 320px; 
+        height: 270px;
+        margin: 0 auto;  
     }
 }

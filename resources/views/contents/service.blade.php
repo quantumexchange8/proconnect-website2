@@ -7,7 +7,7 @@
                     <i class="fa-regular fa-circle-dot"></i>
                     <span>Our Services</span>
                 </div>
-                <h2 class="title-heading heading-container heading-container-medium animate-box animated animate__animated" data-animate="animate__fadeInDown">Beyond the walls of digital fences with Proconnect</h2>
+                <h2 class="title-heading heading-container heading-container-medium animate-box animated animate__animated" data-animate="animate__fadeInDown">Beyond the Walls of Digital Fences with Proconnect</h2>
             </div>
             <div class="card-service-wrapper">
                 <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 grid-spacer-2">

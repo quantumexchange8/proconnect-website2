@@ -6,6 +6,7 @@ Route::get('/', function () {
     return view('content');
 });
 
+//services
 Route::get('/services/web-design', function(){
     return view('services.web-design');
 });
@@ -34,6 +35,17 @@ Route::get('/services/social',function(){
     return view('services.social');
 });
 
+//FAQ
 Route::get('/services/faq',function(){
     return view('services.faq');
+});
+
+//Contact Us
+Route::get('/services/contactus', function(){
+    return view('services.contactus');
+});
+
+//About Us
+Route::get('/services/aboutus',function(){
+    return view('services.aboutus');
 });

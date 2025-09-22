@@ -17,7 +17,7 @@
                             <div class="content">
                                 <h3 class="title-heading">Let's Find the Right Strategy for You!</h3>
                                 <div class="link-wrapper">
-                                    <a href=".contact.html">Book a Free Consultation</a>
+                                    <a href="/services/contactus">Book a Free Consultation</a>
                                     <i class="fa-solid fa-arrow-circle-right"></i>
                                 </div>
                             </div>

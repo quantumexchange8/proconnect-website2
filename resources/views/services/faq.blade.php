@@ -219,7 +219,7 @@
                                 <div class="accordion-body">
                                     <div>
                                         <p>There are numerous applications for the content that is produced for your company. The following task are possible with the content:</p>
-                                        <ul class="check-list">
+                                        <ul class="dot-list">
                                             <li>Share it on Social Media</li>
                                             <li>Distribute via Email Campaign</li>
                                             <li>Post on Your Website</li>

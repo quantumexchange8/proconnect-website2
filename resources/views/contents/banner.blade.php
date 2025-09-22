@@ -15,7 +15,7 @@
                         <div class="d-flex flex-md-row flex-column justify-content-center justify-content-xl-start gspace-3">
                             <a href="#" class="btn btn-accent">
                                 <div class="btn-title">
-                                    <span>Get Started</span>
+                                    <span>Analyse Your Site</span>
                                 </div>
                                 <div class="icon-circle">
                                     <i class="fa-solid fa-arrow-right"></i>

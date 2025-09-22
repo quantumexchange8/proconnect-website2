@@ -492,3 +492,31 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+//Percentages About Us
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".percent-circle").forEach(circle => {
+    const target = +circle.dataset.counter;
+    const progress = circle.querySelector(".progress");
+    const text = circle.querySelector(".percent-text");
+    const radius = progress.getAttribute("r");
+    const circumference = 2 * Math.PI * radius;
+
+    progress.style.strokeDasharray = circumference;
+    progress.style.strokeDashoffset = circumference;
+
+    let current = 0;
+    const speed = 20;
+
+    const step = () => {
+      if (current <= target) {
+        text.textContent = current + "%";
+        const offset = circumference - (current / 100) * circumference;
+        progress.style.strokeDashoffset = offset;
+        current++;
+        setTimeout(step, speed);
+      }
+    };
+    step();
+  });
+});
+

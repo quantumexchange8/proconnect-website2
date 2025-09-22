@@ -15,7 +15,7 @@
                         <a class="nav-link" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/terms">About</a>
+                        <a class="nav-link" href="/services/aboutus">About</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
@@ -36,7 +36,7 @@
                         <a class="nav-link" href="/services/faq">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/terms">Contact Us</a>
+                        <a class="nav-link" href="/services/contactus">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -54,12 +54,8 @@
     <aside>
         <div id="edit-sidebar"></div>
     </aside>
-
-    <!-- Section Search -->
-    <div id="search-form-container"></div>
     
     <!-- Sidebar -->
-<aside>
         <div id="sidebar"></div>
         <div>
     <div class="content-overlay">
@@ -69,9 +65,6 @@
                 <div class="close-btn-second">
                     <i class="fa-solid fa-xmark"></i>
                 </div>
-            </div>
-            <div class="content">
-                <span>Click on the Edit Content button to edit/add the content.</span>
             </div>
         </div>
     </div>
@@ -88,7 +81,7 @@
         </div>
         <ul class="menu">
             <li><a href="/">Home</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="/services/aboutus">About Us</a></li>
             <li class="sidebar-dropdown">
                 <div class="dropdown-header">
                     <a>Services </a>
@@ -105,7 +98,7 @@
                 </ul>
             </li>  
             <li><a href="/services/faq">FAQ</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="/services/contactus">Contact Us</a></li>
         </ul>
     </div>
 </div>

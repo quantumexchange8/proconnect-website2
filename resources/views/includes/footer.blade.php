@@ -18,10 +18,10 @@
                                 <h5>Quick Links</h5>
                                 <ul class="footer-list">
                                     <li><a href="/">Home</a></li>
-                                    <li><a href="./about.html">About Us</a></li>
+                                    <li><a href="/services/aboutus">About Us</a></li>
                                     <li><a href="/#services">Services</a></li>
                                     <li><a href="/services/faq">FAQ</a></li>
-                                    <li><a href="./contact.html">Contact Us</a></li>
+                                    <li><a href="/services/contactus">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -72,7 +72,7 @@
                     <div class="footer-content-spacer"></div>
                 </div>
                 <div class="copyright-container">
-                    <span class="copyright">Procconnect Solution © 2023 - <script>document.write(new Date().getFullYear())</script>. All rights reserved.</span>
+                    <span class="copyright">Proconnect Solution © 2023 - <script>document.write(new Date().getFullYear())</script>. All rights reserved.</span>
                 </div>
                 <div class="footer-spacer"></div>
             </div>

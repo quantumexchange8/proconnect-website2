@@ -12,7 +12,7 @@
                                     <h4>Take the Next Step in Digital Success</h4>
                                     <p>Partner with us to craft strategies that elevate your brand and fuel long-term growth.</p>
                                     <div class="d-flex align-items-center flex-row gspace-2 expertise-link">
-                                        <a href="./contact.html">Get Free Consultation</a>
+                                        <a href="/services/contactus">Get Free Consultation</a>
                                         <i class="fa-solid fa-circle-arrow-right"></i>
                                     </div>
                                 </div>
@@ -28,7 +28,7 @@
                     <i class="fa-regular fa-circle-dot"></i>
                     <span>About Our Company</span>
                 </div>
-                <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Extend your reach to your target customers with <span style="proconnect">Proconnect</span></h2>
+                <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Extend Your Reach to Your Target Customers with <span style="proconnect">Proconnect</span></h2>
                 <p>An innovator and traiblazer of digital marketing. We craft and deliver engaging web experiences, generate organic web traffic through advanced and technical SEO, and leverage data for guided decisions. </p>
                 <p>Join us for an innovative and successful journey into the digital era, from design solutions to strategic brand formation.</p>
                 <div class="card card-expertise card-expertise-counter animate-box animated animate__animated" data-animate="animate__fadeInUp">
