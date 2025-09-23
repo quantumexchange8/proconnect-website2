@@ -7,7 +7,7 @@
                     <i class="fa-regular fa-circle-dot"></i>
                     <span>Our Services</span>
                 </div>
-                <h2 class="title-heading heading-container heading-container-medium animate-box animated animate__animated" data-animate="animate__fadeInDown">Beyond the Walls of Digital Fences with Proconnect</h2>
+                <h2 class="title-heading heading-container heading-container-medium animate-box animated animate__animated" data-animate="animate__fadeInDown">Beyond the Walls of Digital Fences with <span class="proconnect">Proconnect</span></h2>
             </div>
             <div class="card-service-wrapper">
                 <div class="row row-cols-xl-3 row-cols-md-2 row-cols-1 grid-spacer-2">
@@ -55,7 +55,7 @@
                                 </div>
                             </div>
                             <p>
-                                Make sure your brand reaches and connects with the target audience by optimizin online content using cutting-edge techniques to increase search engine visibility.
+                                Make sure your brand reaches and connects with the target audience by optimizing online content using cutting-edge techniques to increase search engine visibility.
                             </p>
                             <div class="mt-auto">
                                 <a href="/services/seo" class="btn btn-accent">
@@ -169,7 +169,7 @@
                                 </div>
                             </div>
                             <p>
-                                Make the most of your digital media presence by utilizing professional. Buying and Planning services to reach and interact with your target audience to the fullest.
+                                Make the most of your digital media presence by utilizing professional Buying and Planning services to reach and interact with your target audience to the fullest.
                             </p>
                             <div class="mt-auto">
                                 <a href="/services/media" class="btn btn-accent">

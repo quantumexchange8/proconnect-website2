@@ -28,12 +28,12 @@
                     <i class="fa-regular fa-circle-dot"></i>
                     <span>About Our Company</span>
                 </div>
-                <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Extend Your Reach to Your Target Customers with <span style="proconnect">Proconnect</span></h2>
+                <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Extend Your Reach to Your Target Customers with <span class="proconnect">Proconnect</span></h2>
                 <p>An innovator and traiblazer of digital marketing. We craft and deliver engaging web experiences, generate organic web traffic through advanced and technical SEO, and leverage data for guided decisions. </p>
                 <p>Join us for an innovative and successful journey into the digital era, from design solutions to strategic brand formation.</p>
                 <div class="card card-expertise card-expertise-counter animate-box animated animate__animated" data-animate="animate__fadeInUp">
                     <div class="d-flex flex-row gspace-2 align-items-center mb-4">
-                        <h5>Grow website with Proconnect</h5>
+                        <h5>Grow website with <span class="proconnect">Proconnect</span></h5>
                     </div>
                     <ul class="check-list row">
                         <li class="col-md-6">Ignite Your Presence</li>

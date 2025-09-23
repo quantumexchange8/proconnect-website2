@@ -494,7 +494,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //Percentages About Us
 document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll(".percent-circle").forEach(circle => {
+    document.querySelectorAll(".percent-circle").forEach(circle => {
     const target = +circle.dataset.counter;
     const progress = circle.querySelector(".progress");
     const text = circle.querySelector(".percent-text");
@@ -508,15 +508,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const speed = 20;
 
     const step = () => {
-      if (current <= target) {
+        if (current <= target) {
         text.textContent = current + "%";
         const offset = circumference - (current / 100) * circumference;
         progress.style.strokeDashoffset = offset;
         current++;
         setTimeout(step, speed);
-      }
+        }
     };
     step();
-  });
+    });
 });
 

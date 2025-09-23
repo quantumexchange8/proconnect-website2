@@ -73,6 +73,10 @@
                 </div>
                 <div class="copyright-container">
                     <span class="copyright">Proconnect Solution © 2023 - <script>document.write(new Date().getFullYear())</script>. All rights reserved.</span>
+                    <div class="d-flex flex-row gspace-2">
+                    <a href="#" class="legal-link">Terms of Service</a>
+                    <a href="#" class="legal-link">Privacy Policy</a>
+                </div>
                 </div>
                 <div class="footer-spacer"></div>
             </div>

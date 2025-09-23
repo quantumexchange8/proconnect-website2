@@ -121,3 +121,46 @@
     </div>
     <div class="spacer"></div>
 </div>
+
+<div class="section">
+    <div class="hero-container">
+        <div class="card card-expertise card-expertise-counter animate-box animated animate__animated" data-animate="animate__fadeInUp">
+            <h4>How Can We Help You?</h4>
+            <p>Connecting you to your goals through expert services</p>
+            <div class="row row-cols-2">
+                <div class="col">
+                    <div class="d-flex flex-column gspace-2">
+                        <div class="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
+                            <i class="fa-regular fa-2x fa-circle-check accent-color"></i>
+                            <div class="d-flex flex-column gspace-0">
+                                <h5>Provides Compelling Contents</h5>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
+                            <i class="fa-regular fa-2x fa-circle-check accent-color"></i>
+                            <div class="d-flex flex-column gspace-0">
+                                <h5>Improve User Experience</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex flex-column gspace-2">
+                        <div class="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
+                            <i class="fa-regular fa-2x fa-circle-check accent-color"></i>
+                            <div class="d-flex flex-column gspace-0">
+                                <h5>Aestheically Pleasing Designs</h5>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row align-items-center text-center text-md-start gspace-1">
+                            <i class="fa-regular fa-2x fa-circle-check accent-color"></i>
+                            <div class="d-flex flex-column gspace-0">
+                                <h5>Improve your SEO Rankings</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

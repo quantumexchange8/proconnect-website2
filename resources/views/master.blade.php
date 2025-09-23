@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Proconnect Solution">
-    <meta name="keywords" content="Proconnect Solution, SEO, web design, content, data, media, social, formation, branding">
+    <meta name="description" content="Proconnect Solution helps businesses grow online with expert services in SEO, web design, content creation, data solutions, social media, media strategy, and company formation">
+    <meta name="keywords" content="Proconnect Solution, digital marketing, SEO services, web design, content creation, data solutions, media strategy, social media management, company formation">
     @if (App::environment('production') || App::environment('staging'))
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     @endif

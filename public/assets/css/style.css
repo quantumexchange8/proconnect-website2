@@ -1573,7 +1573,12 @@ body.lightmode .title-heading {
 
 /* Proconnect font */
 body.lightmode .proconnect {
-    background-image: linear-gradient(284deg, var(--accent-color-6) 20%, var(--accent-color) 100%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-color: transparent;
+    background-image: linear-gradient(var(--accent-color) , var(--accent-color) );
+    -webkit-text-fill-color: transparent;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .banner-heading{
@@ -2123,17 +2128,16 @@ body.lightmode .navbar-icon-wrapper{
     cursor: pointer;
 }
 
-body.lightmode .service{
-background: linear-gradient(284deg, var(--accent-color-3) 50%, var(--accent-color-4) 100%);
-    color: var(--accent-color-2);
-}
 .service:hover {
     transform: translateY(-10px) scale(1.05);
     box-shadow: 0 8px 24px rgba(0,0,0,0.2);
     background: linear-gradient(135deg, var(--accent-color-3), var(--accent-color-4));
 }
 
-
+body.lightmode .service{
+background: linear-gradient(284deg, var(--accent-color-3) 50%, var(--accent-color-4) 100%);
+    color: var(--accent-color-2);
+}
 
 /* ================== 25. Expertise Components ================== */
 
@@ -4663,7 +4667,7 @@ body.lightmode .cta-service-banner::before{
 .copyright-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     gap: 50px 50px;
     border-top: 1px solid var(--accent-color-3);
     padding: 20px 0px 20px 0px;

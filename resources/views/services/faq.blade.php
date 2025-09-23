@@ -7,7 +7,7 @@
             <div class="banner-layout-wrapper">
                 <div class="banner-layout">
                     <div class="d-flex flex-column text-center align-items-center gspace-2">
-                        <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">FAQ</h2>
+                        <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Frequently Asked Questions</h2>
                         <nav class="breadcrumb">
                             <a href="/" class="gspace-2">Home</a>
                             <span class="separator-link">/</span>
@@ -119,7 +119,7 @@
                             <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     <p>In general, websites should have the following page: Home Page, About Us Page, Services/Products Page, Blog, and a Contact Us Page. However, this entirely depends on the kind of business you are in.<br><br>
-                                    Please don't worry if you are unsure of what should be on your website. Our team of professionals always conducts a through analysis of your company to ensure that we are adding all the necessary pages to really make your product or service stand out.</p>
+                                    Please don't worry if you are unsure of what should be on your website. Our team of professionals always conducts a thorough analysis of your company to ensure that we are adding all the necessary pages to really make your product or service stand out.</p>
                                 </div>
                             </div>
                         </div>
